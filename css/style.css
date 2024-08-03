@@ -413,6 +413,76 @@ section {
   color: #fc036b;
 }
 
+/* Booking Section */
+#booking {
+  width: 90%;
+  margin: 3rem auto;
+  padding: 2rem;
+  background-color: #222;
+  color: whitesmoke;
+  border-radius: 8px;
+}
+
+.booking-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.booking-content h2 {
+  font-family: var(--ff-montserrat);
+  font-size: 3vmin;
+  color: #fc036b;
+  margin-bottom: 1rem;
+}
+
+.booking-content .line {
+  width: 80px;
+  height: 4px;
+  background: #fc036b;
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.booking-content form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.booking-content input[type="text"],
+.booking-content input[type="date"],
+.booking-content input[type="number"],
+.booking-content select,
+.booking-content textarea {
+  margin-bottom: 1rem;
+}
+
+.booking-content input,
+.booking-content select,
+.booking-content textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.booking-content input[type="submit"] {
+  background-color: #fc036b;
+  color: whitesmoke;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: var(--ff-montserrat);
+  font-size: var(--fs-links-btns);
+}
+
+.booking-content input[type="submit"]:hover {
+  background-color: whitesmoke;
+  color: #fc036b;
+}
 /* Contributors */
 .contributors {
   display: flex;
